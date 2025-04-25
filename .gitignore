@@ -1,0 +1,23 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS별 임시 파일
+.DS_Store
+Thumbs.db
+
+# pycharm 파일
+.idea
+
+
+Logs
+
+# Git ignore 파일
+#.gitignore
+
+models
