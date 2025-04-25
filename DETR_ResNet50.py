@@ -69,7 +69,7 @@ class ResNetONNXClassifier:
         plt.figure(figsize=(6, 6))
         plt.imshow(image)
         plt.axis('off')
-        plt.title(f"Prediction: {class_name} ({confidence:.2%})", fontsize=14)
+        plt.title(f"Prediction: {class_name} ({confidence:.1f}%)", fontsize=14)
         plt.tight_layout()
         plt.show()
 
